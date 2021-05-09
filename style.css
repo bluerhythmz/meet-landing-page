@@ -394,7 +394,7 @@ body {
     }
 
     .footer {
-        background-image: linear-gradient(#4d97a9ee, #4d97a9e7),url('./assets/desktop/image-footer.jpg');
+        background-image: linear-gradient(rgba(77, 151, 169, 0.933), rgba(77, 151, 169, 0.906)),url('./assets/desktop/image-footer.jpg');
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
