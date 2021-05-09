@@ -175,6 +175,10 @@ html {
 
 /********************* LAYOUT **********************/
 
+body {
+    background-color: var(--white);
+}
+
 .logo-wrapper {
     display: flex;
     justify-content: center;
@@ -332,6 +336,10 @@ html {
 }
 
 @media (min-width: 1392px) {
+    .logo-wrapper {
+        margin: 6.8rem 0 5.4rem 0;
+    }
+
     .hero {
         display: flex;
         justify-content: space-between;
