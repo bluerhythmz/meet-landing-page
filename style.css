@@ -407,7 +407,8 @@ body {
     }
 
     .features__description {
-        padding: 0 31em;
+        font-size: 1.8rem;
+        padding: 0 26em;
     }
 
     .footer {
