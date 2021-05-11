@@ -259,8 +259,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 42rem;
-    display: flex;
-    
 }
 
 .footer__content {
