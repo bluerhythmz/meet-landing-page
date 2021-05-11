@@ -129,6 +129,7 @@ html {
     font-weight: 900;
     text-align: center;
     padding: 0 .6em;
+    color: var(--dark)
 }
 
 .hero__description {
@@ -337,36 +338,49 @@ body {
 }
 
 @media (min-width: 1392px) {
+    body {
+        overflow: hidden;
+    }
     .logo-wrapper {
-        margin: 6.8rem 0 5.4rem 0;
+        margin: 7.4rem 0 5.4rem 0;
     }
 
     .hero {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        overflow: hidden;
     }
+
+    
     .hero__img {
-        display: none;
+        display: none;    
     }
+
     .hero__left {
         display: block;
-        margin-bottom: 6rem;
+        margin-bottom: 4rem;
+        margin-left: -4rem;
     }
 
     .hero__right {
         display: block;
-        margin-top: 6rem;
+        margin-top: 5rem;
+        margin-right: -3rem;
+    }
+
+    .hero__text {
+        margin-top: 6.8rem;
     }
 
     .hero__title {
         font-size: 6.4rem;
         line-height: 6.4rem;
-        padding: 0 1.2em;
+        padding: 0 1.8em;
     }
     
     .hero__description {
-        padding: 0 2em;
+        padding: 0 4em;
         font-size: 1.8rem;
     }
 
@@ -377,6 +391,7 @@ body {
 
     .image {
         width: 22%;
+        margin: 0 0;
     }
 
     .features {
