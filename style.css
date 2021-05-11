@@ -359,8 +359,8 @@ body {
 
     .hero__left {
         display: block;
-        margin-bottom: 4rem;
-        margin-left: -3.7rem;
+        margin-bottom: 4.2rem;
+        margin-left: -3.5rem;
     }
 
     .hero__right {
@@ -370,7 +370,7 @@ body {
     }
 
     .hero__text {
-        margin-top: 6.8rem;
+        margin-top: 6rem;
     }
 
     .hero__title {
