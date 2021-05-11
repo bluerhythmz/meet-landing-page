@@ -260,12 +260,15 @@ body {
     background-repeat: no-repeat;
     height: 42rem;
     display: flex;
+    
+}
+
+.footer__content {
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-
-
 
 .footer__btn {
     margin-bottom: 7.2rem;
