@@ -33,7 +33,7 @@ html {
     color: var(--white);
     font-weight: 900;
     cursor: pointer;
-    transition: all .4s ease;
+    transition: background-color .4s ease;
 }
 
 .--green {
