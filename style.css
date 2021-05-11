@@ -363,12 +363,14 @@ body {
         display: block;
         margin-bottom: 4.2rem;
         margin-left: -3.5rem;
+        min-width: 27%;
     }
 
     .hero__right {
         display: block;
         margin-top: 6rem;
         margin-right: -3rem;
+        min-width: 27%;
     }
 
     .hero__text {
@@ -456,5 +458,128 @@ body {
 
     .--purple-padding {
         padding: 1em 2.6em;
+    }
+}
+
+@media (min-width: 1900px) {
+    .btn {
+        border-radius: 2.9rem;
+        border: none;
+        font-size: 1.9rem;
+        line-height: 2.9rem;
+        color: var(--white);
+        font-weight: 900;
+        cursor: pointer;
+        transition: all .4s ease;
+    }
+
+    .hero__title {
+        font-size: 8.4rem;
+        line-height: 8.4rem;
+        padding: 0 1.8em;
+        margin-bottom: 1rem;
+    }
+    
+    .hero__description {
+        padding: 0 4em;
+        font-size: 2.3rem;
+        line-height: 3.3rem;
+    }
+
+    .features__title {
+        font-size: 5.4rem;
+        line-height: 5.4rem;
+        padding: 0 12.4em;
+        margin: 1.4rem 0 3.2rem 0;
+    }
+
+    .features__description {
+        font-size: 2rem;
+        line-height: 3rem;
+        padding: 0 32em;
+    }
+
+    
+}
+
+@media (min-width: 3800px) {
+    .btn {
+        border-radius: 5.9rem;
+        border: none;
+        font-size: 3.9rem;
+        line-height: 3.9rem;
+        color: var(--white);
+        font-weight: 900;
+        cursor: pointer;
+        transition: all .4s ease;
+    }
+
+    .--lolipop-1-margin {
+        margin-top: 16rem;
+        margin-bottom: 16.4rem;
+    }
+
+    .lolipop__round {
+        background-color: var(--white);
+        width: 11.6rem;
+        height: 11.6rem;
+        border-radius: 50%;
+        border: 1px solid rgba(135, 135, 157, 0.25);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .round-text {
+        font-size: 4rem;
+    }
+
+    .hero__title {
+        font-size: 16.4rem;
+        line-height: 16.4rem;
+        padding: 0 1.8em;
+        margin-bottom: 2rem;
+    }
+    
+    .hero__description {
+        padding: 0 4em;
+        font-size: 4.6rem;
+        line-height: 6.6rem;
+    }
+
+    .hero__buttons {
+        margin-top: 5.2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .features__overline {
+        font-size: 3rem;
+    }
+
+    .features__title {
+        font-size: 10.7rem;
+        line-height: 11.4rem;
+        padding: 0 12.4em;
+        margin: 1.4rem 0 3.2rem 0;
+    }
+
+    .features__description {
+        font-size: 4rem;
+        line-height: 5rem;
+        padding: 0 32em;
+    }
+
+    .footer__title {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    .footer__description {
+        font-size: 3rem;
+        line-height: 4rem;
     }
 }
