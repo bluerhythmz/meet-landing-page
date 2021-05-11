@@ -360,12 +360,12 @@ body {
     .hero__left {
         display: block;
         margin-bottom: 4rem;
-        margin-left: -4rem;
+        margin-left: -3.7rem;
     }
 
     .hero__right {
         display: block;
-        margin-top: 5rem;
+        margin-top: 6rem;
         margin-right: -3rem;
     }
 
@@ -377,6 +377,7 @@ body {
         font-size: 6.4rem;
         line-height: 6.4rem;
         padding: 0 1.8em;
+        margin-bottom: 1rem;
     }
     
     .hero__description {
