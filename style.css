@@ -415,6 +415,7 @@ body {
 
     .footer {
         background-image: linear-gradient(rgba(77, 151, 169, 0.933), rgba(77, 151, 169, 0.906)),url('./assets/desktop/image-footer.jpg');
+        display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
@@ -446,6 +447,7 @@ body {
 
     .footer__content {
         display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: space-around;
         margin-top: 2rem;
